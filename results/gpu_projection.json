@@ -1,0 +1,46 @@
+{
+  "assumption": "same fraction of FP64 peak as PARDISO achieves on the i5-11300H; complex128 throughout; solve phase and host-device transfers ignored; projection only",
+  "cpu_peak_gflops": 198.4,
+  "gpu_peak_gflops": {
+    "T4": 250.0,
+    "A100 (FP64, non-tensor)": 9700.0
+  },
+  "rows": [
+    {
+      "design": "class5",
+      "n_dof": 50534,
+      "factor_gflop": 27.343,
+      "cpu_factor_s": 0.5667991899972549,
+      "cpu_efficiency": 0.2431505597657049,
+      "proj_factor_s_T4": 0.44981183718182144,
+      "proj_factor_s_A100 (FP64, non-tensor)": 0.011593088587160346
+    },
+    {
+      "design": "class8",
+      "n_dof": 97218,
+      "factor_gflop": 212.007,
+      "cpu_factor_s": 3.1061174729984486,
+      "cpu_efficiency": 0.3440255169497166,
+      "proj_factor_s_T4": 2.4650148265715686,
+      "proj_factor_s_A100 (FP64, non-tensor)": 0.06353130996318476
+    },
+    {
+      "design": "class9",
+      "n_dof": 124682,
+      "factor_gflop": 648.305,
+      "cpu_factor_s": 9.638853759002814,
+      "cpu_efficiency": 0.33900984622711167,
+      "proj_factor_s_T4": 7.649394343144633,
+      "proj_factor_s_A100 (FP64, non-tensor)": 0.19714933874084106
+    },
+    {
+      "design": "class19",
+      "n_dof": 83490,
+      "factor_gflop": 79.198,
+      "cpu_factor_s": 1.4512748280030792,
+      "cpu_efficiency": 0.2750571153302526,
+      "proj_factor_s_T4": 1.1517317035032437,
+      "proj_factor_s_A100 (FP64, non-tensor)": 0.02968380679132071
+    }
+  ]
+}

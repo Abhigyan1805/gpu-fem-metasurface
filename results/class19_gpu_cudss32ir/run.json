@@ -1,0 +1,78 @@
+{
+  "design": "class19",
+  "preset": "medium",
+  "copper": "sibc",
+  "pol": "y",
+  "order": 2,
+  "device": "cuda",
+  "solver": "cudss32ir",
+  "n_nodes": 2932,
+  "n_tets": 13340,
+  "n_dofs_total": 86910,
+  "n_dof": 83490,
+  "nnz": 1810515,
+  "t_mesh_s": 1.5881885159978992,
+  "t_assemble_s": 1.4811629770047148,
+  "mesh": {
+    "preset": "medium",
+    "air_mm": 10.0,
+    "shift": null,
+    "h_edge": 0.1,
+    "h_diel": 0.6,
+    "h_air": 2.0,
+    "grow": 0.5
+  },
+  "solver_memory_mb": 1742.4499988555908,
+  "nnz_factor": -1,
+  "ir_steps_mean": 2.3333333333333335,
+  "ir_steps_max": 4,
+  "load_avg_start": [
+    2.10498046875,
+    2.13330078125,
+    1.5078125
+  ],
+  "n_freq": 201,
+  "wall_s": 72.03143290099979,
+  "t_solve_total_s": 68.57348666405596,
+  "t_solve_mean_s": 0.34116162519430826,
+  "t_solve_median_s": 0.3329486810034723,
+  "max_residual": 8.740858227555553e-11,
+  "max_abs_s11": 0.9999682909845053,
+  "max_cross": 0.16942424388661548,
+  "peak_rss_mb": 1892.859375,
+  "argv": {
+    "design": "class19",
+    "preset": "medium",
+    "order": 2,
+    "copper": "sibc",
+    "pol": "y",
+    "n_freq": 201,
+    "air_mm": 10.0,
+    "device": "cuda",
+    "solver": "cudss32ir",
+    "tag": "gpu_cudss32ir",
+    "out": null,
+    "quiet": true
+  },
+  "machine": {
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz",
+    "logical_cpus": 6,
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "mkl_threads": 3,
+    "torch_threads": 3,
+    "torch": "2.14.1+cu126",
+    "gpu": "NVIDIA GeForce GTX 1650"
+  },
+  "load_avg_end": [
+    2.208984375,
+    2.16064453125,
+    1.56787109375
+  ],
+  "design_params": {
+    "eps_r": 10.2,
+    "tand": 0.0023,
+    "h_mm": 1.27,
+    "superstrate": false,
+    "conductor": "copper"
+  }
+}

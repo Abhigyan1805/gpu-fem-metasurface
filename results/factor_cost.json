@@ -1,0 +1,42 @@
+[
+  {
+    "design": "class5",
+    "n_dof": 50534,
+    "nnz_factor": 11777205,
+    "factor_gflop": 27.343,
+    "t_factor_s": 0.5667991899972549,
+    "t_solve_s": 0.05914900100469822,
+    "cpu_gflops": 48.24107105751585,
+    "factor_memory_mb": 265.1962890625
+  },
+  {
+    "design": "class8",
+    "n_dof": 97218,
+    "nnz_factor": 37025121,
+    "factor_gflop": 212.007,
+    "t_factor_s": 3.1061174729984486,
+    "t_solve_s": 0.1666429370015976,
+    "cpu_gflops": 68.25466256282378,
+    "factor_memory_mb": 740.5068359375
+  },
+  {
+    "design": "class9",
+    "n_dof": 124682,
+    "nnz_factor": 70377265,
+    "factor_gflop": 648.305,
+    "t_factor_s": 9.638853759002814,
+    "t_solve_s": 0.2974246250014403,
+    "cpu_gflops": 67.25955349145896,
+    "factor_memory_mb": 1310.0966796875
+  },
+  {
+    "design": "class19",
+    "n_dof": 83490,
+    "nnz_factor": 22784525,
+    "factor_gflop": 79.198,
+    "t_factor_s": 1.4512748280030792,
+    "t_solve_s": 0.13599478700052714,
+    "cpu_gflops": 54.57133168152212,
+    "factor_memory_mb": 489.064453125
+  }
+]

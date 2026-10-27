@@ -1,0 +1,290 @@
+[
+  {
+    "label": "o1 h_edge0.20 h_diel0.60",
+    "order": 1,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.2,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 6404,
+    "n_tets": 6413,
+    "notch_ghz": 9.110000000000005,
+    "notch_db": -24.138438361735197,
+    "solver_mb": 20.4169921875,
+    "wall_s": 1.7838777059951099,
+    "peak_rss_mb": 356.61328125
+  },
+  {
+    "label": "o1 h_edge0.20 h_diel0.60",
+    "order": 1,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.2,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 7072,
+    "n_tets": 6413,
+    "notch_ghz": 9.070000000000004,
+    "notch_db": -11.258607832614267,
+    "solver_mb": 21.3857421875,
+    "wall_s": 1.8506888190022437,
+    "peak_rss_mb": 359.5546875
+  },
+  {
+    "label": "o1 h_edge0.12 h_diel0.40",
+    "order": 1,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.12,
+      "h_diel": 0.4,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 14542,
+    "n_tets": 14126,
+    "notch_ghz": 9.230000000000008,
+    "notch_db": -23.38913195992466,
+    "solver_mb": 54.783203125,
+    "wall_s": 7.133945656998549,
+    "peak_rss_mb": 400.87109375
+  },
+  {
+    "label": "o1 h_edge0.12 h_diel0.40",
+    "order": 1,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.12,
+      "h_diel": 0.4,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 15522,
+    "n_tets": 14126,
+    "notch_ghz": 9.200000000000006,
+    "notch_db": -11.291788560093208,
+    "solver_mb": 54.458984375,
+    "wall_s": 6.832425358996261,
+    "peak_rss_mb": 405.5078125
+  },
+  {
+    "label": "o1 h_edge0.12 h_diel0.25",
+    "order": 1,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.12,
+      "h_diel": 0.25,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 39279,
+    "n_tets": 36981,
+    "notch_ghz": 9.52000000000001,
+    "notch_db": -22.44707287833675,
+    "solver_mb": 181.3876953125,
+    "wall_s": 22.041733039994142,
+    "peak_rss_mb": 541.6953125
+  },
+  {
+    "label": "o1 h_edge0.12 h_diel0.25",
+    "order": 1,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.12,
+      "h_diel": 0.25,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 40457,
+    "n_tets": 36981,
+    "notch_ghz": 9.49000000000001,
+    "notch_db": -10.828508134213696,
+    "solver_mb": 175.4150390625,
+    "wall_s": 21.796997436998936,
+    "peak_rss_mb": 563.109375
+  },
+  {
+    "label": "o2 coarse",
+    "order": 2,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.3,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 33214,
+    "n_tets": 5672,
+    "notch_ghz": 9.690000000000005,
+    "notch_db": -22.1134366206061,
+    "solver_mb": 193.1337890625,
+    "wall_s": 20.868026504998852,
+    "peak_rss_mb": 621.64453125
+  },
+  {
+    "label": "o2 coarse",
+    "order": 2,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.3,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 34418,
+    "n_tets": 5672,
+    "notch_ghz": 9.650000000000004,
+    "notch_db": -9.881495748715693,
+    "solver_mb": 192.60546875,
+    "wall_s": 18.464590280003904,
+    "peak_rss_mb": 641.94921875
+  },
+  {
+    "label": "o2 h_edge0.20 h_diel0.50",
+    "order": 2,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.2,
+      "h_diel": 0.5,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 44986,
+    "n_tets": 7761,
+    "notch_ghz": 9.780000000000006,
+    "notch_db": -21.111454471066367,
+    "solver_mb": 260.0927734375,
+    "wall_s": 27.89290078900376,
+    "peak_rss_mb": 732.15234375
+  },
+  {
+    "label": "o2 h_edge0.20 h_diel0.50",
+    "order": 2,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.2,
+      "h_diel": 0.5,
+      "h_air": 2.0,
+      "grow": 1.0
+    },
+    "n_dof": 47078,
+    "n_tets": 7761,
+    "notch_ghz": 9.740000000000006,
+    "notch_db": -9.498850480590573,
+    "solver_mb": 277.8974609375,
+    "wall_s": 29.53117939499498,
+    "peak_rss_mb": 736.95703125
+  },
+  {
+    "label": "o2 medium",
+    "order": 2,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.1,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 47090,
+    "n_tets": 8187,
+    "notch_ghz": 9.800000000000006,
+    "notch_db": -21.451782976197933,
+    "solver_mb": 245.244140625,
+    "wall_s": 24.734153502999106,
+    "peak_rss_mb": 736.95703125
+  },
+  {
+    "label": "o2 medium",
+    "order": 2,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.1,
+      "h_diel": 0.6,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 50534,
+    "n_tets": 8187,
+    "notch_ghz": 9.760000000000005,
+    "notch_db": -9.469470809625786,
+    "solver_mb": 265.1962890625,
+    "wall_s": 25.783019890004653,
+    "peak_rss_mb": 736.95703125
+  },
+  {
+    "label": "o2 fine",
+    "order": 2,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.07,
+      "h_diel": 0.4,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 92894,
+    "n_tets": 16037,
+    "notch_ghz": 9.910000000000007,
+    "notch_db": -20.60300443044689,
+    "solver_mb": 595.6748046875,
+    "wall_s": 82.59578447999957,
+    "peak_rss_mb": 1142.57421875
+  },
+  {
+    "label": "o2 fine",
+    "order": 2,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.07,
+      "h_diel": 0.4,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 98482,
+    "n_tets": 16037,
+    "notch_ghz": 9.860000000000007,
+    "notch_db": -9.074749261346533,
+    "solver_mb": 629.294921875,
+    "wall_s": 84.147927101003,
+    "peak_rss_mb": 1229.69140625
+  },
+  {
+    "label": "o2 h_edge0.05 h_diel0.30",
+    "order": 2,
+    "copper": "pec",
+    "mesh": {
+      "h_edge": 0.05,
+      "h_diel": 0.3,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 157258,
+    "n_tets": 26998,
+    "notch_ghz": 9.940000000000008,
+    "notch_db": -21.22448411273687,
+    "solver_mb": 1109.5283203125,
+    "wall_s": 194.56858053200267,
+    "peak_rss_mb": 1808.15234375
+  },
+  {
+    "label": "o2 h_edge0.05 h_diel0.30",
+    "order": 2,
+    "copper": "sibc",
+    "mesh": {
+      "h_edge": 0.05,
+      "h_diel": 0.3,
+      "h_air": 2.0,
+      "grow": 0.5
+    },
+    "n_dof": 165158,
+    "n_tets": 26998,
+    "notch_ghz": 9.880000000000008,
+    "notch_db": -8.954486365019434,
+    "solver_mb": 1133.7763671875,
+    "wall_s": 196.6500947980021,
+    "peak_rss_mb": 1913.1015625
+  }
+]

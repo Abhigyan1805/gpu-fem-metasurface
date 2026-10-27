@@ -1,0 +1,20 @@
+PASSED tests/test_device.py::test_cuda_assembly_matches_cpu
+PASSED tests/test_device.py::test_cpu_orders_share_conventions
+PASSED tests/test_elements.py::test_mass_matrix_matches_quadrature
+PASSED tests/test_elements.py::test_curl_by_finite_difference
+PASSED tests/test_elements.py::test_patch_constant_field
+PASSED tests/test_elements.py::test_gradient_in_kernel
+PASSED tests/test_elements.py::test_triangle_trace
+PASSED tests/test_mesh.py::test_mesh_conforms_to_pattern[class5]
+PASSED tests/test_mesh.py::test_mesh_conforms_to_pattern[class8]
+PASSED tests/test_mesh.py::test_mesh_conforms_to_pattern[class9]
+PASSED tests/test_mesh.py::test_mesh_conforms_to_pattern[class19]
+PASSED tests/test_mesh.py::test_periodic_map_is_translation
+PASSED tests/test_mesh.py::test_too_coarse_mesh_is_rejected
+PASSED tests/test_slab.py::test_grounded_slab[slab_class5-1-0.3]
+PASSED tests/test_slab.py::test_grounded_slab[slab_class9-1-0.3]
+PASSED tests/test_slab.py::test_grounded_slab[slab_class5-2-0.6]
+PASSED tests/test_slab.py::test_grounded_slab[slab_class9-2-1.0]
+PASSED tests/test_slab.py::test_resistive_sheet[50.0]
+PASSED tests/test_slab.py::test_resistive_sheet[377.0]
+19 passed in 62.86s (0:01:02)

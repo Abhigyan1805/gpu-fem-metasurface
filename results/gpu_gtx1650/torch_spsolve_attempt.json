@@ -1,0 +1,183 @@
+{
+  "host": "LAPTOP-9PQ2PQBV",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "freqs_ghz": [
+    4.0,
+    8.0,
+    10.0,
+    14.0,
+    18.0
+  ],
+  "runs": [
+    {
+      "design": "class5",
+      "kind": "assembly",
+      "device": "cpu",
+      "seconds": 1.405795897000644
+    },
+    {
+      "design": "class5",
+      "kind": "assembly",
+      "device": "cuda",
+      "seconds": 0.5315348470030585
+    },
+    {
+      "design": "class5",
+      "kind": "solve",
+      "solver": "pardiso",
+      "n_dof": 50534,
+      "t_mesh_s": 0.8043465139999171,
+      "seconds_per_freq": [
+        0.7515971629982232,
+        0.6840308049941086,
+        0.6539967380012968,
+        0.654278260000865,
+        0.666748732997803
+      ],
+      "mean_s": 0.6821303397984593,
+      "s11": [
+        [
+          -0.9915024281754227,
+          0.13000932475654492
+        ],
+        [
+          -0.9556400300241802,
+          0.29107289845906953
+        ],
+        [
+          -0.8841523440733151,
+          0.011545255539478605
+        ],
+        [
+          -0.8796914631441218,
+          0.46317680420899154
+        ],
+        [
+          -0.1397228987447967,
+          0.7766651876455533
+        ]
+      ],
+      "residual": 5.335642757391479e-13
+    },
+    {
+      "design": "class5",
+      "kind": "solve",
+      "solver": "torch",
+      "error": "RuntimeError('Calling linear solver with sparse tensors requires compiling PyTorch with CUDA cuDSS and is not supported in ROCm build.')"
+    },
+    {
+      "design": "class19",
+      "kind": "assembly",
+      "device": "cpu",
+      "seconds": 1.9355163040017942
+    },
+    {
+      "design": "class19",
+      "kind": "assembly",
+      "device": "cuda",
+      "seconds": 0.8700686200027121
+    },
+    {
+      "design": "class19",
+      "kind": "solve",
+      "solver": "pardiso",
+      "n_dof": 83490,
+      "t_mesh_s": 1.3346121509966906,
+      "seconds_per_freq": [
+        1.601899923000019,
+        1.5693783899987466,
+        1.5842886750033358,
+        1.6079115950051346,
+        1.51818049299618
+      ],
+      "mean_s": 1.576331815200683,
+      "s11": [
+        [
+          -0.9297961082779624,
+          0.3655014018406688
+        ],
+        [
+          -0.9928257112863836,
+          -0.0786214880653866
+        ],
+        [
+          -0.9149840461534834,
+          0.37287973923321
+        ],
+        [
+          -0.8386556347430311,
+          -0.5012424383986815
+        ],
+        [
+          -0.948303539805056,
+          -0.25396421145843506
+        ]
+      ],
+      "residual": 2.0510460162892902e-13
+    },
+    {
+      "design": "class19",
+      "kind": "solve",
+      "solver": "torch",
+      "error": "RuntimeError('Calling linear solver with sparse tensors requires compiling PyTorch with CUDA cuDSS and is not supported in ROCm build.')"
+    },
+    {
+      "design": "class8",
+      "kind": "assembly",
+      "device": "cpu",
+      "seconds": 2.271189222999965
+    },
+    {
+      "design": "class8",
+      "kind": "assembly",
+      "device": "cuda",
+      "seconds": 0.9856731350009795
+    },
+    {
+      "design": "class8",
+      "kind": "solve",
+      "solver": "pardiso",
+      "n_dof": 97218,
+      "t_mesh_s": 1.2246438980000676,
+      "seconds_per_freq": [
+        3.6299212699959753,
+        3.4396103769977344,
+        3.290397907003353,
+        3.419734802999301,
+        3.351363253997988
+      ],
+      "mean_s": 3.4262055221988703,
+      "s11": [
+        [
+          -0.7351372746158572,
+          0.5126192171421128
+        ],
+        [
+          -0.03599370193599664,
+          0.40209120805627585
+        ],
+        [
+          0.08638372213642939,
+          0.034034137349361
+        ],
+        [
+          -0.26742186148853514,
+          -0.351198267038988
+        ],
+        [
+          -0.30637880102432813,
+          -0.4924526395399401
+        ]
+      ],
+      "residual": 1.3016972671183787e-13
+    },
+    {
+      "design": "class8",
+      "kind": "solve",
+      "solver": "torch",
+      "error": "RuntimeError('Calling linear solver with sparse tensors requires compiling PyTorch with CUDA cuDSS and is not supported in ROCm build.')"
+    }
+  ],
+  "torch": "2.14.1+cu126",
+  "gpu": "NVIDIA GeForce GTX 1650"
+}

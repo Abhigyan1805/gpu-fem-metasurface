@@ -1,0 +1,75 @@
+{
+  "design": "class19_table1",
+  "preset": "medium",
+  "copper": "R_s=100",
+  "pol": "y",
+  "order": 2,
+  "device": "cpu",
+  "solver": "pardiso",
+  "n_nodes": 3720,
+  "n_tets": 17827,
+  "n_dofs_total": 115188,
+  "n_dof": 111768,
+  "nnz": 2445144,
+  "t_mesh_s": 1.318918819000828,
+  "t_assemble_s": 2.5506456040020566,
+  "mesh": {
+    "preset": "medium",
+    "air_mm": 10.0,
+    "shift": null,
+    "h_edge": 0.1,
+    "h_diel": 0.6,
+    "h_air": 2.0,
+    "grow": 0.5
+  },
+  "solver_memory_mb": 865.7275390625,
+  "nnz_factor": 43578781,
+  "load_avg_start": [
+    2.76513671875,
+    2.69970703125,
+    2.65625
+  ],
+  "n_freq": 201,
+  "wall_s": 890.0316821199958,
+  "t_solve_total_s": 885.9026149420461,
+  "t_solve_mean_s": 4.407475696229085,
+  "t_solve_median_s": 4.358201091999945,
+  "max_residual": 1.9305987697115703e-13,
+  "max_abs_s11": 0.9916190664812602,
+  "max_cross": 8.724483819454286e-05,
+  "peak_rss_mb": 1548.41015625,
+  "argv": {
+    "design": "class19_table1",
+    "preset": "medium",
+    "order": 2,
+    "copper": "sibc",
+    "pol": "y",
+    "n_freq": 201,
+    "air_mm": 10.0,
+    "device": "cpu",
+    "solver": "pardiso",
+    "tag": "",
+    "out": null,
+    "quiet": true
+  },
+  "machine": {
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz",
+    "logical_cpus": 6,
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "mkl_threads": 3,
+    "torch_threads": 3,
+    "torch": "2.14.1+cpu"
+  },
+  "load_avg_end": [
+    2.7744140625,
+    2.74365234375,
+    2.73046875
+  ],
+  "design_params": {
+    "eps_r": 10.2,
+    "tand": 0.0023,
+    "h_mm": 1.27,
+    "superstrate": true,
+    "conductor": "100 ohm/sq"
+  }
+}
